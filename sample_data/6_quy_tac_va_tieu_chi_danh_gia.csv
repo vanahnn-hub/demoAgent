@@ -1,0 +1,8 @@
+Ma_Quy_Tac,Nhom_Quy_Tac,Ten_Quy_Tac,Gia_Tri_Cau_Hinh,Mo_Ta_Chi_Tiet
+QT01,Ghi_Nhan_Doanh_Thu,Phuong_Phap_Phan_Bo_Mac_Dinh,TY_TRONG_UU_DAI,Khi 1 đơn tiếp xúc nhiều chương trình: Phân bổ doanh thu & giá vốn theo tỷ trọng số tiền giảm giá thực tế của từng chương trình trong đơn đó (Hoặc tùy chọn: Chia đều Linear / First-Touch / Last-Touch)
+QT02,Doi_Soat_Hang_Tra,Khau_Tru_Doanh_Thu_Va_Gia_Von,CO_KHAU_TRU,Trừ giá trị hoàn tiền khỏi doanh thu thuần; nếu hàng trả Nhap_Lai_Kho thì hoàn nhập giá vốn COGS; nếu Hong_Hao_Hut thì giữ nguyên COGS và cộng thêm Phí xử lý & hao hụt
+QT03,Phan_Bo_Chi_Phi_Chung,Phuong_Phap_Phan_Bo_Chi_Phi_Chung,THEO_DOANH_THU_THUAN,Chi phí chung (Marketing thương hiệu & Vận hành chiến dịch) được phân bổ nhất quán theo tỷ trọng Doanh thu thuần sau trả hàng của từng chương trình
+QT04,Tieu_Chi_Danh_Gia,Nguong_ROI_Tiep_Tuc_Mo_Rong,30,Chương trình có ROI >= 30% VÀ Tỷ lệ trả hàng <= 8% VÀ Lợi nhuận đóng góp > 0 => Đề xuất: TIẾP TỤC / MỞ RỘNG
+QT05,Tieu_Chi_Danh_Gia,Nguong_ROI_Dieu_Chinh_Co_Che,0,Chương trình có 0% <= ROI < 30% HOẶC bị ăn mòn biên lợi nhuận do cộng dồn mã/chi phí trực tiếp cao => Đề xuất: ĐIỀU CHỈNH CƠ CHẾ
+QT06,Tieu_Chi_Danh_Gia,Nguong_ROI_Dung_Trien_Khai,-0.01,Chương trình có Lợi nhuận đóng góp < 0 (ROI âm) HOẶC Tỷ lệ hoàn trả > 15% gây lỗ ròng => Đề xuất: DỪNG TRIỂN KHAI
+
